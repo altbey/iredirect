@@ -1,9 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
+    <title>Redirecting... ⏳</title>
+
+    <!-- Open Graph meta tags for social sharing -->
+    <meta property="og:title" content="Dont miss out ⏳💚" />
+    <meta property="og:description" content="Lets play 💚😊" />
+    <meta property="og:image" content="https://bey.co/wp-content/uploads/Sylva2view.png" />
+    <meta property="og:url" content="https://bey.co" />
+
     <script>
         (function () {
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
@@ -14,7 +22,7 @@
             var isIOS = /iPad|iPhone|iPod/.test(userAgent);
 
             var path = window.location.pathname; // Extract path from URL
-            var cleanUrl = "https://butts.fit" + path; // Construct new URL
+            var cleanUrl = "https://bey.co" + path; // Construct new URL
 
             if (instagram || facebook) {
                 if (isAndroid) {
@@ -34,6 +42,6 @@
 </head>
 <body>
     <p>If you are not redirected, <a id="redirectLink" href="#">click here</a>.</p>
-    <script>document.getElementById("redirectLink").href = "https://butts.fit" + window.location.pathname;</script>
+    <script>document.getElementById("redirectLink").href = "https://bey.co" + window.location.pathname;</script>
 </body>
 </html>
